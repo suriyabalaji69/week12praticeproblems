@@ -1,7 +1,7 @@
-echo "# OOPSBannerApp" >> README.md
+echo "# pratice problems" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/suriyabalaji69/OOPSBannerApp.git
+git remote add origin https://github.com/suriyabalaji69/week12praticeproblems.git
 git push -u origin main 

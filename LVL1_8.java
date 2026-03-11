@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class LVL1_8 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter start value for countdown: ");
+        int counter = sc.nextInt();
+
+        while (counter >= 1) {
+            System.out.println(counter);
+            counter--;
+        }
+        System.out.println("Rocket Launch!");
+    }
+}
